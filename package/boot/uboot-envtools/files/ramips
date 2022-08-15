@@ -70,6 +70,7 @@ mts,wg430223)
 	;;
 xiaomi,mi-router-3g-v2|\
 xiaomi,mi-router-4a-gigabit|\
+xiaomi,miwifi-3a|\
 xiaomi,miwifi-3c)
 	ubootenv_add_uci_config "/dev/mtd1" "0x0" "0x1000" "0x10000"
 	ubootenv_add_uci_sys_config "/dev/mtd2" "0x0" "0x4000" "0x10000"

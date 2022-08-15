@@ -935,6 +935,14 @@ define Device/xiaomi_mi-router-4c
 endef
 TARGET_DEVICES += xiaomi_mi-router-4c
 
+define Device/xiaomi_miwifi-3a
+  IMAGE_SIZE := 13056k
+  DEVICE_VENDOR := Xiaomi
+  DEVICE_MODEL := MiWiFi 3A
+  DEVICE_PACKAGES := uboot-envtools
+endef
+TARGET_DEVICES += xiaomi_miwifi-3a
+
 define Device/xiaomi_miwifi-3c
   IMAGE_SIZE := 15104k
   DEVICE_VENDOR := Xiaomi
